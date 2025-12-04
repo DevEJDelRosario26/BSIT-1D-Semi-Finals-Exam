@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Empty HTML with Screen Size Display</title>
+  <style>
+      [role="banner"] {
+      
+        background-color: rgba(30, 30, 30, 10);
+        height: 8%;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        padding: 0 1rem;
+    
+
+        z-index: 3;
+      }
+       .BannerContents{
+            position:absolute;
+
+       }
+
+     
+  #HomeBtn{
+  
+
+    height: 40px;
+    width:  40px;
+
+    background-color: rgba(255, 255, 255, 0.2);
+    border: solid rgba(0, 0, 5) 1px;
+    
+    border-radius: 25%;
+
+    
+ 
+
+    top: 25px ;
+    left:10%;
+
+    z-index: 6;
+  }
+
+  #HomeBtn:hover{
+    height:44px;
+    width: 44px;
+    background-color: rgba(255,255, 255,0.3);
+      }
+  #HomeBtn:active{
+    height:40px;
+    width: 40px;
+    background-color: rgba(255,255, 255,0.4);
+      
+  }
+
+
+#main{
+    
+}
+
+  .LPannel{
+    background-color: gray;
+
+    height: 100%;
+    width: 30%;
+    
+    position: absolute;
+    transform: translate(50%, 50%);
+    top:-50%;
+    right:90%;
+
+    opacity: 50%;
+    z-index: 2;
+  }
+
+  #screen-info{
+   /*  text-color: rbga(255,255,255,0.5);   */
+     opacity:50%;
+     z-index: 4;
+    }
+
+  </style>
+  
+  
+  </head>
+  <body>
+    <header role="banner"  class="BannerContents">
+      <button id="HomeBtn" class="BannerContents">Home</button>
+    </header>
+   <div class="LPannel">
+
+   </div>
+
+
+
+    <main id="main" role="main">
+      
+
+
+
+      
+      <div id="screen-info"></div>
+    </main>
+
+    <footer role="contentinfo">
+
+
+    </footer>
+
+    <script>
+      const info = document.getElementById("screen-info");
+
+      function update() {
+        const w = window.innerWidth;
+        const h = window.innerHeight;
+        info.textContent = `Viewport Size: ${w}px × ${h}px`;
+      }
+
+      window.addEventListener("resize", update);
+      update();
+    </script>
+  </body>
+</html>
