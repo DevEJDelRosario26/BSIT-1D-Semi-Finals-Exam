@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Device Redirect</title>
+  <script>
+    
+    function redirectBasedOnDevice() {
+      
+      var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+      
+      if (isMobile) {
+       
+        window.location.href = "Device/Gallary_MOBILE/Gallary.html";
+      } else {
+       
+        window.location.href = "Device/Gallary_PC/Gallary.html";
+      }
+    }
+
+    
+    redirectBasedOnDevice();
+  </script>
+</head>
+<body>
+  
+  <noscript>
+    Please enable JavaScript to be redirected to the correct version.
+  </noscript>
+</body>
+</html>
