@@ -39,10 +39,14 @@ menuBtn.onclick = function() {
 var HBtn = document.getElementById("HomeBtn");
 
 HBtn.onclick = function() {
-       window.location.href = "C:/PROGRAMMING_AND_DEVELOPMENT/CODES/Projects/Web_Dev/BSIT-1D-Semi-Finals-Exam-main/MAIN/index.html";
+       window.location.href = "https://devejdelrosario26.github.io/BSIT-1D-Semi-Finals-Exam/MAIN/index.html";
 };
 
+    function DescriptionPage(){
+      window.location.href = "https://devejdelrosario26.github.io/BSIT-1D-Semi-Finals-Exam/MAIN/OtherHTMLs/Description/Description.html"
+  }
 
       function GallaryPage(){
       window.location.href = "Gallary.html"
   }
+
