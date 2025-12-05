@@ -363,13 +363,20 @@ body{
 .imageFrame{
   position: absolute;
   top: 5%;
-  border: solid 1px Black;
+   
   height: 40%;
   width: 80%;
   overflow: hidden;
 }
 #IT1D{
-  height:500px;
+  position:absolute;
+  
+  transform: translate( -50%, -50%);
+     top: 50%;
+     left: 50%;
+  height:300px;
+  width:auto;
+  
    display: flex;
   justify-content: center;
 }
