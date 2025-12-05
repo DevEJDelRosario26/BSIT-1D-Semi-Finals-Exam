@@ -508,7 +508,8 @@ Top: 71%;
  .UPS{
     display:flex; 
     position:absolute;
-    height: 80%;
+   transform: translate(-50%, -50%);
+    height: 120;
     width: 80%;
     border-radius: 25px;
     margin-left: 50%;
@@ -520,6 +521,8 @@ Top: 71%;
   .Data{
     display: flex;
     justify-content: center;
+      
+     
   } 
 
 
