@@ -507,8 +507,8 @@ Top: 71%;
  
  .UPS{
     display:flex; 
-    height: 150%;
-    width: 150%;
+    height: 80%;
+    width: 80%;
     border-radius: 25px;
     margin-left: 50%;
     margin-right: 50%;
@@ -527,5 +527,6 @@ Top: 71%;
     text-align: center;
 
   }
+
 
 
