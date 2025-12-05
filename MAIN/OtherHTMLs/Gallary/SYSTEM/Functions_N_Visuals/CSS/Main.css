@@ -342,13 +342,17 @@ body{
 
 
 
-.userContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    max-width: 180px;    
-    padding: 10px;
+
+.mainContainer{
+  position:fixed;
+   transform: translate( -50%, -50%);
+     top: 195%;
+     left: 50%;
+
+
+   background-color: rgba(100, 00, 0, 0.7);
+ height: 2200PX; 
+  width: 90%;
 }
 
 
@@ -501,14 +505,17 @@ Top: 71%;
     background-color: rgba(255, 255, 255, 1);
  }
  
- .UPS {
-    width: 100%;
-    max-width: 130px;    
-    height: auto;
-    object-fit: cover;
-    border-radius: 10px; 
- }
+ .UPS{
+    display:flex; 
+    position:absolute;
+    height: 80%;
+    width: 80%;
+    border-radius: 25px;
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-top: 50%;
 
+  }  
 
   .Data{
     display: flex;
@@ -522,15 +529,4 @@ Top: 71%;
 
   }
 
-
-
-@media (max-width: 600px) {
-    .UPS {
-        max-width: 100px;
-    }
-
-    .userContainer {
-        max-width: 150px;
-    }
-}
 
