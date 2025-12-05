@@ -507,12 +507,12 @@ Top: 71%;
  
  .UPS{
     display:flex; 
-    height: 150px;
-    width: 150px;
+    height: 150%;
+    width: 150%;
     border-radius: 25px;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 10%;
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-top: 50%;
 
   }  
 
@@ -527,3 +527,4 @@ Top: 71%;
     text-align: center;
 
   }
+
