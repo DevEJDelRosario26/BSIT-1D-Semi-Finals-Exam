@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>No Internet Connetion</title>
+
+
+    <style>
+  body{
+       background-color: rgb(249, 249, 249);
+
+   
+   z-index:1px;
+     -webkit-user-drag: none;
+     position: fixed;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     height: fit-content;
+     width: fit-content; 
+     
+  }
+  #prankMessage{
+    display: none;
+       background-color: rgb(255, 255, 255, 0.5);
+
+   backdrop-filter: blur(5px);
+   z-index:2px;
+     -webkit-user-drag: none;
+     position: fixed;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     height: 1000%;
+     width: 1000%; 
+     
+  }
+
+
+.alertText{
+        
+
+   
+   z-index:15px;
+     -webkit-user-drag: none;
+     position: fixed;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+
+     font-size: 50px;
+     height: fit-content;
+     width: 385px; 
+     
+  }
+
+
+    </style>
+</head>
+<body>
+    <img class="BGI" src="ni.jpg" alt="Background Image" draggable="false">
+   <div id="prankMessage"><strong class="alertText">IT'S A PRANK!!!</strong></div>
+
+
+<script> 
+setTimeout(function() {
+    document.querySelector("#prankMessage").style.display = "block";
+
+    setTimeout(function() {
+        window.location.href = "MAIN/index.html";
+    }, 5000);
+
+}, 5000);
+</script>
+</body>
+</html>
