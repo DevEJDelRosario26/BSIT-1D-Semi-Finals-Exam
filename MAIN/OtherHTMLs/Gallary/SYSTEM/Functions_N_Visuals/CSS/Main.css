@@ -344,7 +344,7 @@ body{
 
 
 .mainContainer{
-  position:absolute;
+  position:fixed;
    transform: translate( -50%, -50%);
      top: 195%;
      left: 50%;
@@ -527,4 +527,5 @@ Top: 71%;
     text-align: center;
 
   }
+
 
