@@ -39,7 +39,7 @@ menuBtn.onclick = function() {
 var HBtn = document.getElementById("HomeBtn");
 
 HBtn.onclick = function() {
-       window.location.href = "/MAIN/index.html";
+       window.location.href = "https://devejdelrosario26.github.io/BSIT-1D-Semi-Finals-Exam/MAIN/index.html";
 };
 
       function DescriptionPage(){
@@ -49,4 +49,5 @@ HBtn.onclick = function() {
       function GallaryPage(){
       window.location.href = "https://devejdelrosario26.github.io/BSIT-1D-Semi-Finals-Exam/MAIN/OtherHTMLs/Gallary/Gallary.html"
   }
+
 
