@@ -346,7 +346,7 @@ body{
 .mainContainer{
   position:absolute;
    transform: translate( -50%, -50%);
-     top: 165%;
+     top: 195%;
      left: 50%;
 
 
@@ -525,4 +525,5 @@ Top: 71%;
   #EJ1421{
     font-size: 6.5px;
     text-align: center;
+
   }
