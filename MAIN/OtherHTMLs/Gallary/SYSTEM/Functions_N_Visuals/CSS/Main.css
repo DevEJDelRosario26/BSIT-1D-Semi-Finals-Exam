@@ -525,6 +525,11 @@ Top: 71%;
      
   } 
 
+.dataContainer{
+    position:absolute;
+   transform: translatey( -50%);
+     top:75%;
+}
 
   #EJ1421{
     font-size: 6.5px;
