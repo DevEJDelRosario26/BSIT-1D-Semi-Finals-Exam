@@ -370,6 +370,8 @@ body{
 }
 #IT1D{
   height:500px;
+   display: flex;
+  justify-content: center;
 }
 
 .titleContainer{
@@ -425,4 +427,5 @@ body{
      z-index: 1;
      pointer-events: none;
      
+
 }
